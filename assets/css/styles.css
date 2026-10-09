@@ -534,6 +534,16 @@ a:hover { text-decoration-color: currentColor; }
 .footer__demo { max-width: 62ch; }
 .footer__demo strong { color: #B9CFC1; font-weight: 600; }
 
+/* Discreet "Demo project by Nuvejo" credit, bottom right. margin-left:auto keeps
+   it on the right even when the row wraps on narrow screens. */
+.footer .footer__badge {
+  margin-left: auto;
+  font-size: .75rem; color: #8A9A91;
+  opacity: .7; transition: opacity .2s;
+}
+.footer .footer__badge:hover,
+.footer .footer__badge:focus-visible { color: #C7D2CB; opacity: 1; }
+
 /* ---------- 13. Reveal animations ---------- */
 .reveal {
   opacity: 0;
